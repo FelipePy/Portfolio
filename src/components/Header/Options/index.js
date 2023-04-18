@@ -6,6 +6,11 @@ export default function Options() {
         <div className={styles.container}>
             <ul>
                 <li>
+                    <Link href={'/'}>
+                        Inicio
+                    </Link>
+                </li>
+                <li>
                     <Link href={'/habilitys'}>
                         Habilidades
                     </Link>
@@ -28,6 +33,16 @@ export default function Options() {
                 <li>
                     <Link href={'/projects'}>
                         Projetos
+                    </Link>
+                </li>
+                <li>
+                    <Link href={'/about'}>
+                        Sobre
+                    </Link>
+                </li>
+                <li>
+                    <Link href={'/contact'}>
+                        Contato
                     </Link>
                 </li>
             </ul>
