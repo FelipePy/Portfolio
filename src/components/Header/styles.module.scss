@@ -1,0 +1,26 @@
+.header {
+    width: 100%;
+    height: 150px;
+    background-color: rgb(122, 126, 236);
+    // create a grid with 1 colum and 2 rows
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-auto-rows: 10px;
+    margin-bottom: 50px;
+    
+    img {
+        width: 100px;
+        height: 100px;
+        // deixar a imagem redonda
+        border-radius: 50%;
+    }
+
+    .info {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+    }
+}

@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    background-color: rgb(153, 155, 212);
+
+    ul {
+        display: flex;
+        list-style: none;
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+        // tamanho das letras grande
+        font-weight: 700;
+
+
+        li {
+            margin: 10px;
+            width: 100px;
+            height: 25px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            a {
+                text-decoration: none;
+                color: black;
+
+                transition: all 0.5s;
+            }
+            
+            :hover {
+                color: white;
+                font-size: larger;
+            }
+        }
+        
+    } 
+    
+}
