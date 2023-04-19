@@ -1,17 +1,24 @@
+$background-color: rgb(57, 57, 57, 0.494);
+$white-color: white;
+
 .container {
     display: flex;
     background-color: rgba(57, 57, 57, 0.494);
     border-radius: 10px;
-    letter-spacing: 0.1rem;
 
     ul {
         display: flex;
-        list-style: none;
-        width: 100%;
-        justify-content: space-around;
         align-items: center;
-        // tamanho das letras grande
         font-weight: 700;
+
+        a {
+            color: $white-color;
+            font-size: large;
+        
+            transition: all 0.5s;
+        }a:hover {
+            font-size: larger;
+        }
 
 
         li {
@@ -21,18 +28,6 @@
             display: flex;
             justify-content: center;
             align-items: center;
-
-            a {
-                text-decoration: none;
-                color: white;
-
-                transition: all 0.5s;
-            }
-            
-            :hover {
-                color: white;
-                font-size: larger;
-            }
         }
         
     } 

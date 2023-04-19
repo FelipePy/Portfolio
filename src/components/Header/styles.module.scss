@@ -1,3 +1,6 @@
+$text-color: rgb(172, 170, 170);
+$hover-color: white;
+
 .header {
     display: flex;
     flex-direction: row;
@@ -7,7 +10,7 @@
     position: fixed;
     top: 0;
     z-index: 1;
-    background-color: rgba(54, 54, 54, 0);
+    background-color: rgba(0, 0, 0, 0);
 
     .container {
         display: flex;
@@ -37,7 +40,7 @@
             margin: 20px;
     
             p {
-                color: rgb(172, 170, 170);
+                color: $text-color;
             }
         }
 
@@ -45,7 +48,7 @@
             margin: 20px;
 
             a {
-                color: white;
+                color: $hover-color;
             }
         }
     }
