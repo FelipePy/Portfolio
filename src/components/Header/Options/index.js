@@ -7,27 +7,12 @@ export default function Options() {
             <ul>
                 <li>
                     <Link href={'/'}>
-                        Inicio
-                    </Link>
-                </li>
-                <li>
-                    <Link href={'/formation'}>
-                        Formação
-                    </Link>
-                </li>
-                <li>
-                    <Link href={'/experience'}>
-                        Experiência
+                        Sobre
                     </Link>
                 </li>
                 <li>
                     <Link href={'/projects'}>
                         Projetos
-                    </Link>
-                </li>
-                <li>
-                    <Link href={'/about'}>
-                        Sobre
                     </Link>
                 </li>
                 <li>

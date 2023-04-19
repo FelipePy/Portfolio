@@ -1,6 +1,8 @@
 .container {
     display: flex;
-    background-color: rgb(153, 155, 212);
+    background-color: rgba(57, 57, 57, 0.494);
+    border-radius: 10px;
+    letter-spacing: 0.1rem;
 
     ul {
         display: flex;
@@ -22,7 +24,7 @@
 
             a {
                 text-decoration: none;
-                color: black;
+                color: white;
 
                 transition: all 0.5s;
             }
