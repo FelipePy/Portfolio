@@ -1,0 +1,41 @@
+@use '../../pages/styles.module.scss' as vars;
+
+.container {
+    display: flex;
+    width: 400px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: vars.$background-color;
+    margin: 10px;
+
+    iframe {
+        width: 300px;
+        height: 200px;
+        margin: 1.5rem;                
+    }
+
+    h3 {
+        margin: 1rem;
+        text-align: center;
+        line-height: 1.5rem;
+        letter-spacing: 0.1rem;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+    }
+
+    p {
+        margin: 1rem;
+        text-align: justify;
+        line-height: 1.5rem;
+        letter-spacing: 0.1rem;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+    }
+}

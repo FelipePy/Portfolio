@@ -1,7 +1,9 @@
 import Header from '../components/Header';
-import Image from 'next/image';
 import styles from './styles.module.scss';
 import Link from 'next/link';
+import CoursesCard from '../components/CoursesCard';
+import coursesData from "../courses.json"
+
 
 export default function PageHome() {
 
@@ -75,16 +77,6 @@ export default function PageHome() {
                                         <p>React</p>
                                     </Link>
                                 </li>
-                                <li>
-                                    <Link href="https://nextjs.org/">
-                                        <p>Next.js</p>
-                                    </Link>
-                                </li>
-                                <li>
-                                    <Link href="https://nodejs.org/en/docs">
-                                        <p>Node.js</p>
-                                    </Link>
-                                </li>
                             </ul>
                             <ul>
                                 <h3>Back-End</h3>
@@ -111,6 +103,16 @@ export default function PageHome() {
                                 <li>
                                     <Link href="https://fastapi.tiangolo.com/">
                                         <p>Fast API</p>
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link href="https://nextjs.org/">
+                                        <p>Next.js</p>
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link href="https://nodejs.org/en/docs">
+                                        <p>Node.js</p>
                                     </Link>
                                 </li>
                             </ul>
@@ -141,6 +143,16 @@ export default function PageHome() {
                                         <p>Linux</p>
                                     </Link>
                                 </li>
+                                <li>
+                                    <Link href="https://kubernetes.io/docs/home/">
+                                        <p>Kubernets</p>
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link href="https://nginx.org/en/">
+                                        <p>Nginx</p>
+                                    </Link>
+                                </li>
                             </ul>
                             
                         </div>
@@ -152,37 +164,42 @@ export default function PageHome() {
                 <div className={styles.videos}>
                     <h2>Python</h2>
                     <div>
-                        <div>
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                            <h3>Curso de Python 3 - Mundo 1: Fundamentos</h3>
-                            <p>Python é uma linguagem ultra moderna, utilizada pelo Google, YouTube, Industrial Light & Magic, Globo e muitas outras. Fácil de aprender, com código limpo e organizado, Python vem ganhando cada vez mais espaço, e chegou a sua hora de aprender. Curso criado pelo Prof. Gustavo Guanabara para o site CursoemVideo.com</p>
-                        </div>
-                            <div>
-                                <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLHz_AreHm4dk_nZHmxxf_J0WRAqy5Czye" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                                <h3>Curso de Python 3 - Mundo 2: Estruturas de controle</h3>
-                                <p>Python é uma linguagem ultra moderna, utilizada pelo Google, YouTube, Industrial Light & Magic, Globo e muitas outras. Fácil de aprender, com código limpo e organizado, Python vem ganhando cada vez mais espaço, e chegou a sua hora de aprender. Curso criado pelo Prof. Gustavo Guanabara para o site CursoemVideo.com</p>
-                            </div>
-                            <div>
-                                <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLHz_AreHm4dksnH2jVTIVNviIMBVYyFnH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                                <h3>Curso de Python 3 - Mundo 3: Estruturas Compostas</h3>
-                                <p>Python é uma linguagem ultra moderna, utilizada pelo Google, YouTube, Industrial Light & Magic, Globo e muitas outras. Fácil de aprender, com código limpo e organizado, Python vem ganhando cada vez mais espaço, e chegou a sua hora de aprender. Curso criado pelo Prof. Gustavo Guanabara para o site CursoemVideo.com</p>
-                            </div>
-                        <div>
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLHz_AreHm4dm6wYOIW20Nyg12TAjmMGT-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                            <h3>Exercícios de Python 3</h3>
-                            <p>Serão mais de 100 exercícios feitos em Linguagem Python pelo Professor Gustavo Guanabara, do canal Curso em Vídeo. Acompanhe todos, seguindo a ordem e sempre colocando em prática cada um deles.</p>
-                        </div>
+                        {coursesData.withoutCertificate.python.map((course, index) => (
+                            <CoursesCard
+                            key={index}
+                            src={course.src}
+                            courseTitle={course.title}
+                            courseDescription={course.description}
+                            />
+                        ))}
                     </div>
-                    
                 </div>
                 <div className={styles.videos}>
                     <h2>MySQL</h2>
                     <div>
-                        <div>
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLHz_AreHm4dkBs-795Dsgvau_ekxg8g1r" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                            <h3>Curso de banco de dados MySQL</h3>
-                            <p>Curso Grátis de Banco de Dados com MySQL criado por Gustavo Guanabara, professor de TI. Veja como criar um banco de dados de maneira simples e interativa.</p>
-                        </div>
+                        {coursesData.withCertificate.mysql.map((course, index) => (
+                            <CoursesCard
+                            key={index}
+                            src={course.src}
+                            courseTitle={course.title}
+                            courseDescription={course.description}
+                            />
+                        ))}
+                    </div>
+                    
+                </div>
+
+                <div className={styles.videos}>
+                    <h2>Alura</h2>
+                    <div>
+                        {coursesData.withCertificate.alura.map((course, index) => (
+                            <CoursesCard
+                            key={index}
+                            src={course.src}
+                            courseTitle={course.title}
+                            courseDescription={course.description}
+                            />
+                        ))}
                     </div>
                     
                 </div>
