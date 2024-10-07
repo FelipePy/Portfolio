@@ -1,6 +1,6 @@
 {
     "withoutCertificate": {
-        "python": [
+        "Python": [
             {
                 "src": "https://www.youtube.com/embed/videoseries?list=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6",
                 "title": "Curso de Python 3 - Mundo 1: Fundamentos",
@@ -21,112 +21,112 @@
                 "title": "Exercícios de Python 3",
                 "description": "Serão mais de 100 exercícios feitos em Linguagem Python pelo Professor Gustavo Guanabara, do canal Curso em Vídeo. Acompanhe todos, seguindo a ordem e sempre colocando em prática cada um deles."
             }
-        ]
-    },
-
-    "withCertificate": {
-        "mysql": [
+        ], 
+        "Mysql": [
             {
                 "src": "https://www.youtube.com/embed/videoseries?list=PLHz_AreHm4dkBs-795Dsgvau_ekxg8g1r",
                 "title": "Curso de banco de dados MySQL",
                 "description": "Curso Grátis de Banco de Dados com MySQL criado por Gustavo Guanabara, professor de TI. Veja como criar um banco de dados de maneira simples e interativa."
             }
-        ],
-        "alura": [
+        ]
+    },
+
+    "withCertificate": {
+        "Alura": [
             {
                 "src": "https://cursos.alura.com.br/user/felipesampaio-contato/course/docker-criando-gerenciando-containers/certificate",
-                "Título": "Docker: criando e gerenciando containers",
+                "title": "Docker: criando e gerenciando containers",
                 "description": ""
                 },
                 
                 
                 {
                 "src": "https://cursos.alura.com.br/user/felipesampaio-contato/course/kubernetes-deployments-volumes-escalabilidade/certificate",
-                "Título": "Kubernetes: Deployments, Volumes e Escalabilidade",
+                "title": "Kubernetes: Deployments, Volumes e Escalabilidade",
                 "description": ""
                 },
                 
                 
                 {
                 "src": "https://cursos.alura.com.br/user/felipesampaio-contato/course/kubernetes-pods-services-configmap/certificate",
-                "Título": "Kubernetes: Pods, Services e ConfigMaps",
+                "title": "Kubernetes: Pods, Services e ConfigMaps",
                 "description": ""
                 },
                 
                 
                 {
                 "src": "https://cursos.alura.com.br/user/felipesampaio-contato/course/laravel-criando-aplicacao-mvc/certificate",
-                "Título": "Laravel: criando uma aplicação com MVC",
+                "title": "Laravel: criando uma aplicação com MVC",
                 "description": ""
                 },
                 
                 
                 {
                 "src": "https://cursos.alura.com.br/user/felipesampaio-contato/course/laravel-transacoes-service-container-autenticacao/certificate",
-                "Título": "Laravel: transações, service container e autenticação",
+                "title": "Laravel: transações, service container e autenticação",
                 "description": ""
                 },
                 
                 
                 {
                 "src": "https://cursos.alura.com.br/user/felipesampaio-contato/course/laravel-formularios-sessoes-relacionamentos/certificate",
-                "Título": "Laravel: validando formulários, usando sessões e definindo relacionamentos",
+                "title": "Laravel: validando formulários, usando sessões e definindo relacionamentos",
                 "description": ""
                 },
                 
                 
                 {
                 "src": "https://cursos.alura.com.br/user/felipesampaio-contato/course/introducao-a-nlp-com-analise-de-sentimento/certificate",
-                "Título": "Linguagem Natural parte 1: NLP com análise de sentimento",
+                "title": "Linguagem Natural parte 1: NLP com análise de sentimento",
                 "description": ""
                 },
                 
                 
                 {
                 "src": "https://cursos.alura.com.br/user/felipesampaio-contato/course/introducao-a-sistemas-de-recomendacao-com-python/certificate",
-                "Título": "Machine Learning: intro a sistemas de recomendação em Python",
+                "title": "Machine Learning: intro a sistemas de recomendação em Python",
                 "description": ""
                 },
                 
                 
                 {
                 "src": "https://cursos.alura.com.br/user/felipesampaio-contato/course/microsservicos-padroes-projeto/certificate",
-                "Título": "Microsserviços: padrões de projeto",
+                "title": "Microsserviços: padrões de projeto",
                 "description": ""
                 },
                 
                 
                 {
                 "src": "https://cursos.alura.com.br/user/felipesampaio-contato/course/nginx-parte-2-performance-fastcgi-https/certificate",
-                "Título": "NGINX Parte 2: performance, FastCGI e HTTPS",
+                "title": "NGINX Parte 2: performance, FastCGI e HTTPS",
                 "description": ""
                 },
                 
                 
                 {
                 "src": "https://cursos.alura.com.br/user/felipesampaio-contato/course/nginx-servidor-web-proxy-reverso-api-gateway/certificate",
-                "Título": "NGINX: servidor Web, Proxy Reverso e API Gateway",
+                "title": "NGINX: servidor Web, Proxy Reverso e API Gateway",
                 "description": ""
                 },
                 
                 
                 {
                 "src": "https://cursos.alura.com.br/user/felipesampaio-contato/course/php-composer/certificate",
-                "Título": "PHP Composer: Dependências, Autoload e Publicação",
+                "title": "PHP Composer: Dependências, Autoload e Publicação",
                 "description": ""
                 },
                 
                 
                 {
                 "src": "https://cursos.alura.com.br/user/felipesampaio-contato/course/python-exceptions/certificate",
-                "Título": "Python 3: entendendo o Tratamento de Erros",
+                "title": "Python 3: entendendo o Tratamento de Erros",
                 "description": ""
                 },
                 
                 
                 {
                 "src": "https://cursos.alura.com.br/user/felipesampaio-contato/course/python-intro/certificate",
-                "Título": "Python para Data Science",
+                "title": "Python para Data Science",
                 "description": ""
                 }
         ]

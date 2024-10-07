@@ -11,6 +11,40 @@ $white-color: rgb(200, 200, 200);
     width: 100%;
     color: $text-color;
 
+    .about {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 1.5rem;
+        height: 100vh;
+
+        img {
+            border-radius: 50%;
+            width: 300px;
+            height: auto;
+        }
+
+        p {
+            max-width: 700px;
+            text-align: justify;
+            line-height: 1.5rem;
+            letter-spacing: 0.1rem;
+
+        }
+
+        ul {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            li {
+                font-size: 1rem;
+            }
+        }
+        
+    }
+
     .education {
         display: flex;
         flex-direction: column;
@@ -22,44 +56,8 @@ $white-color: rgb(200, 200, 200);
         margin: 1rem;
         padding: 1rem;
         box-shadow: 0 0 15px rgba(0, 0, 0, 1);
-    
-        .about {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            margin: 1.5rem;
-
-            p {
-                max-width: 700px;
-                text-align: justify;
-                line-height: 1.5rem;
-                letter-spacing: 0.1rem;
-
-            }
-
-            ul {
-                list-style: none;
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-
-                li {
-                    font-size: 1rem;
-                }
-            }
-            
-        }
         
         .formation {
-            margin-bottom: 1.5rem;
-        }
-
-        .certificates {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
             margin-bottom: 1.5rem;
         }
 
@@ -92,19 +90,6 @@ $white-color: rgb(200, 200, 200);
                     }
                 }   
             }
-        }
-    }
-
-    .videos {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-        
-
-        div {
-            display: flex;
         }
     }
 }

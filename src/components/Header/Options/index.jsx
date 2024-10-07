@@ -16,8 +16,8 @@ export default function Options() {
                     </Link>
                 </li>
                 <li>
-                    <Link href={'/contact'}>
-                        Contato
+                    <Link href={'/certificates'}>
+                        Cursos
                     </Link>
                 </li>
             </ul>

@@ -1,0 +1,28 @@
+{
+    "Front-End": {
+        "JavaScript": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+        "HTML": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+        "CSS": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+        "React": "https://reactjs.org/"
+    },
+    "Back-End": {
+        "Python": "https://www.python.org/",
+        "Java": "https://dev.java/learn/",
+        "MySQL": "https://dev.mysql.com/doc/",
+        "PostgreSQL": "https://www.postgresql.org/docs/",
+        "Fast API": "https://fastapi.tiangolo.com/",
+        "Next.js": "https://nextjs.org/",
+        "Node.js": "https://nodejs.org/en/docs"
+    },
+    "DevOPS": {
+        "Docker": "https://docs.docker.com/",
+        "Docker-Compose": "https://docs.docker.com/compose/",
+        "Kubernetes": "https://kubernetes.io/docs/home/",
+        "Nginx": "https://nginx.org/en/"
+    },
+    "Outros": {
+        "Git": "https://git-scm.com/doc",
+        "GitHub": "https://www.github.com/FelipePy",
+        "Linux": "https://www.linux.org/"
+    }
+}

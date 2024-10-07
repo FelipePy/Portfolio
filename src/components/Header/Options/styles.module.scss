@@ -1,10 +1,12 @@
 $background-color: rgb(57, 57, 57, 0.494);
-$white-color: white;
+$white-color: rgb(255, 255, 255);
 
 .container {
     display: flex;
-    background-color: rgba(57, 57, 57, 0.494);
+    background-color: $background-color;
     border-radius: 10px;
+    width: 100%;
+    justify-content: space-between;
 
     ul {
         display: flex;
@@ -23,7 +25,6 @@ $white-color: white;
 
         li {
             margin: 10px;
-            width: 100px;
             height: 25px;
             display: flex;
             justify-content: center;

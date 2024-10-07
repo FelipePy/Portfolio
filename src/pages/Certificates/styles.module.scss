@@ -1,0 +1,36 @@
+@use '../../pages/styles.module.scss' as vars;
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    .courses {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .certificates {
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1.5rem;
+        background-color: vars.$background-color;
+    }
+    
+    .videos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+
+        div {
+            display: flex;
+        }
+    }
+}
+

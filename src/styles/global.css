@@ -1,10 +1,10 @@
 * {
---background-color: rgb(35, 35, 35);
---text-color: rgb(172, 170, 170);
---primary-color: rgb(98, 94, 217);
+--background-color: rgba(196, 215, 250, 0.5);
+--text-color: rgb(0, 0, 0);
+--primary-color: rgb(8, 0, 255);
 --secondary-color: rgb(136, 132, 231);
 --white-color: rgb(200, 200, 200);
---hover-color: white;
+--hover-color: rgb(0, 0, 0);
   margin: 0;
   padding: 0;
   border: 0;
@@ -52,7 +52,7 @@ body {
 
 a {
     text-decoration: none;
-    color: var(--text-color);
+    color: var(--white-color);
     margin: 1rem;
     transition: 0.2s;
 
@@ -72,4 +72,8 @@ font {
 
 }a font:hover {
     color: var(--secondary-color);
+}
+
+p {
+  color: var(--text-color);
 }
